@@ -8,6 +8,13 @@ import { CharactersComponent } from './_components/characters/characters.compone
 import { PlanetsComponent } from './_components/planets/planets.component';
 import { HeaderComponent } from './_components/header/header.component';
 import { FooterComponent } from './_components/footer/footer.component';
+import { MovieDetailComponent } from './_components/movie-detail/movie-detail.component';
+import { PlanetDetailComponent } from './_components/planet-detail/planet-detail.component';
+import { CharacterDetailComponent } from './_components/character-detail/character-detail.component';
+import { FrontpageComponent } from './_components/frontpage/frontpage.component';
+import { AddCharacterComponent } from './_components/add-character/add-character.component';
+import { AddPlanetComponent } from './_components/add-planet/add-planet.component';
+import { AddMovieComponent } from './_components/add-movie/add-movie.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { FooterComponent } from './_components/footer/footer.component';
     CharactersComponent,
     PlanetsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MovieDetailComponent,
+    PlanetDetailComponent,
+    CharacterDetailComponent,
+    FrontpageComponent,
+    AddCharacterComponent,
+    AddPlanetComponent,
+    AddMovieComponent
   ],
   imports: [
     BrowserModule,
